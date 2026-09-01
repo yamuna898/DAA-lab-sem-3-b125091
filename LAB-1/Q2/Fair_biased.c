@@ -26,8 +26,8 @@ int main()
 
     for (int i = 0; i < TRIALS; i++)
     {
-        (rand() % 2) ? fairT++ : fairH++;
-        (rand() % 100 < BIAS) ? biasH++ : biasT++;
+        (rand() % 2) ? fairT++ : fairH++; //fair coin, 50-50
+        (rand() % 100 < BIAS) ? biasH++ : biasT++;//biased coin,75-25
     }
 
     printf("\n================ Coin Toss Simulation ================\n");
