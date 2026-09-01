@@ -65,7 +65,7 @@ int binary_search_defective(const int coins[], const long long pref[], int low, 
 int main(void) {
     int n = 20;
 
-    int coins[] = {10, 10, 10, 10, 10, 9, 10, 10, 10,10,10,10,10,10,10,10,10,10,10,10};
+    int coins[] = {10, 10, 10, 10};
 
 
     long long* pref = build_prefix_sum(coins, n);
