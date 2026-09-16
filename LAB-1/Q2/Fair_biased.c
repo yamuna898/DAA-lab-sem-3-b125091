@@ -29,7 +29,7 @@ int main()
         (rand() % 2) ? fairT++ : fairH++; //fair coin, 50-50
         (rand() % 100 < BIAS) ? biasH++ : biasT++;//biased coin,75-25
     }
-
+//0->T , 1->H
     printf("\n================ Coin Toss Simulation ================\n");
     printf("Trials : %d\n\n", TRIALS);
 
